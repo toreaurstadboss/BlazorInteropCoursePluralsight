@@ -1,0 +1,33 @@
+﻿@inject IJSRuntime JSRunTime
+
+<h2>Call JavaScript functions that return a value</h2>
+
+<button class="btn btn-secondary" @onclick="ShowPrompt">Show prompt</button>
+<label>Prompt result:</label>
+<span>@promptResult</span>
+
+<button class="btn btn-secondary" @onclick="CreateEmployee">Create employee</button>
+<label>Created employee:</label>
+<span>@employee</span>
+
+@code{
+    private string promptResult; 
+
+    private Employee employee {get; set;}
+
+    private async Task ShowPrompt()
+    {
+        var result = await JSRunTime.InvokeAsync<string>("blazorInterop.showPrompt", "What's your name", "");
+        if (result != null)
+        {
+            promptResult = result; 
+        }
+    }
+
+    private async Task<Employee> CreateEmployee()
+    {
+        employee = await JSRunTime.InvokeAsync<Employee>("blazorInterop.createEmployee", "Tore", "Boss");
+        return employee;
+    }
+
+}

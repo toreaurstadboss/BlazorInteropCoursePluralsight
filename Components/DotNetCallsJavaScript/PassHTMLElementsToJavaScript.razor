@@ -1,0 +1,26 @@
+﻿@inject IJSRuntime JSRunTime 
+
+<h2>Pass HTML element references to JavaScript</h2>
+
+<div class="form-group">
+    <label>Element to focus:</label>
+    <input @ref="elementToFocus" type="text" class="form-control" />
+</div>
+
+<button class="btn btn-secondary" @onclick="FocusElement">Focus element</button>
+
+@code{
+    private ElementReference elementToFocus;
+
+    protected async override Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+            await FocusElement();
+    }
+
+    private async Task FocusElement()
+    {
+        await JSRunTime.InvokeVoidAsync("blazorInterop.focusElement", elementToFocus);
+    }
+
+}
