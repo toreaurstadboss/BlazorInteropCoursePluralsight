@@ -8,7 +8,7 @@
 }
 else
 {
-  <BlazorAgGrid TRow="Employee" OnSelectionChanged="GridSelectionChanged"  RowData="Employees"></BlazorAgGrid>
+  <BlazorAgGrid AutoGenerateColumns="true" TRow="Employee" OnSelectionChanged="GridSelectionChanged"  RowData="Employees"></BlazorAgGrid>
 
     @if (SelectedEmployee != null)
     {
