@@ -1,3 +1,5 @@
 ﻿<StaticWebAssets Version="1.0">
   <ContentRoot BasePath="_content/BethanysPieShopHRM.ComponentsLibrary" Path="C:\src\Blazor-Interop\javascript-interop-blazor-applications\02\demos\before\BethanysPieShopHRM.ComponentsLibrary\wwwroot\" />
+  <ContentRoot BasePath="_content/BethanysPieShopHRM.GridLibrary" Path="C:\src\Blazor-Interop\javascript-interop-blazor-applications\02\demos\before\BethanysPieShopHRM.GridLibrary\wwwroot\" />
+  <ContentRoot BasePath="_content/BethanysPieShopHRM.OnlineCheckLibrary" Path="C:\src\Blazor-Interop\javascript-interop-blazor-applications\02\demos\before\BenthanysPieShopHRM.OnlineCheckLibraryV2\wwwroot\" />
 </StaticWebAssets>

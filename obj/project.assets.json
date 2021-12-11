@@ -2,10 +2,10 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "Microsoft.AspNetCore.Authorization/5.0.3": {
+      "Microsoft.AspNetCore.Authorization/5.0.12": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Metadata": "5.0.3",
+          "Microsoft.AspNetCore.Metadata": "5.0.12",
           "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
           "Microsoft.Extensions.Options": "5.0.0"
         },
@@ -16,11 +16,11 @@
           "lib/net5.0/Microsoft.AspNetCore.Authorization.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Components/5.0.3": {
+      "Microsoft.AspNetCore.Components/5.0.12": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Authorization": "5.0.3",
-          "Microsoft.AspNetCore.Components.Analyzers": "5.0.3"
+          "Microsoft.AspNetCore.Authorization": "5.0.12",
+          "Microsoft.AspNetCore.Components.Analyzers": "5.0.12"
         },
         "compile": {
           "lib/net5.0/Microsoft.AspNetCore.Components.dll": {}
@@ -29,16 +29,16 @@
           "lib/net5.0/Microsoft.AspNetCore.Components.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Components.Analyzers/5.0.3": {
+      "Microsoft.AspNetCore.Components.Analyzers/5.0.12": {
         "type": "package",
         "build": {
           "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets": {}
         }
       },
-      "Microsoft.AspNetCore.Components.Forms/5.0.3": {
+      "Microsoft.AspNetCore.Components.Forms/5.0.12": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Components": "5.0.3"
+          "Microsoft.AspNetCore.Components": "5.0.12"
         },
         "compile": {
           "lib/net5.0/Microsoft.AspNetCore.Components.Forms.dll": {}
@@ -47,13 +47,13 @@
           "lib/net5.0/Microsoft.AspNetCore.Components.Forms.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Components.Web/5.0.3": {
+      "Microsoft.AspNetCore.Components.Web/5.0.12": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Components": "5.0.3",
-          "Microsoft.AspNetCore.Components.Forms": "5.0.3",
-          "Microsoft.Extensions.DependencyInjection": "5.0.1",
-          "Microsoft.JSInterop": "5.0.3",
+          "Microsoft.AspNetCore.Components": "5.0.12",
+          "Microsoft.AspNetCore.Components.Forms": "5.0.12",
+          "Microsoft.Extensions.DependencyInjection": "5.0.2",
+          "Microsoft.JSInterop": "5.0.12",
           "System.IO.Pipelines": "5.0.1"
         },
         "compile": {
@@ -63,7 +63,7 @@
           "lib/net5.0/Microsoft.AspNetCore.Components.Web.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Metadata/5.0.3": {
+      "Microsoft.AspNetCore.Metadata/5.0.12": {
         "type": "package",
         "compile": {
           "lib/net5.0/Microsoft.AspNetCore.Metadata.dll": {}
@@ -72,7 +72,7 @@
           "lib/net5.0/Microsoft.AspNetCore.Metadata.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection/5.0.1": {
+      "Microsoft.Extensions.DependencyInjection/5.0.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
@@ -124,7 +124,7 @@
           "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {}
         }
       },
-      "Microsoft.JSInterop/5.0.3": {
+      "Microsoft.JSInterop/5.0.12": {
         "type": "package",
         "compile": {
           "lib/net5.0/Microsoft.JSInterop.dll": {}
@@ -164,6 +164,32 @@
           "bin/placeholder/BethanysPieShopHRM.ComponentsLibrary.dll": {}
         }
       },
+      "BethanysPieShopHRM.GridLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "5.0.12"
+        },
+        "compile": {
+          "bin/placeholder/BethanysPieShopHRM.GridLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BethanysPieShopHRM.GridLibrary.dll": {}
+        }
+      },
+      "BethanysPieShopHRM.OnlineCheckLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "5.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BethanysPieShopHRM.OnlineCheckLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BethanysPieShopHRM.OnlineCheckLibrary.dll": {}
+        }
+      },
       "BethanysPieShopHRM.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -180,10 +206,10 @@
     }
   },
   "libraries": {
-    "Microsoft.AspNetCore.Authorization/5.0.3": {
-      "sha512": "yMX0DKFtLOiWsRfBJKTTRXCv2s//H801R5fP9uyf7/IjgGwUsnLWo/SUnB475SoFNFvurPRzW/J0UYPHWw9lrA==",
+    "Microsoft.AspNetCore.Authorization/5.0.12": {
+      "sha512": "6+YxlU6VMFz3JbUc5OtxC9OjkebKkenoEWwVPWURlSPPqWTuoa+rGIx/D/1NaAqzFydKdEfT0UgV0+Jcj9F0rw==",
       "type": "package",
-      "path": "microsoft.aspnetcore.authorization/5.0.3",
+      "path": "microsoft.aspnetcore.authorization/5.0.12",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -195,14 +221,14 @@
         "lib/net5.0/Microsoft.AspNetCore.Authorization.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.xml",
-        "microsoft.aspnetcore.authorization.5.0.3.nupkg.sha512",
+        "microsoft.aspnetcore.authorization.5.0.12.nupkg.sha512",
         "microsoft.aspnetcore.authorization.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components/5.0.3": {
-      "sha512": "+0297KJ2b1iuMzWbSUmv9pg1+idstvY//oBDLWNTxZH5nkzD0yDL9uo2QbhoWR4tFVP9RtgFbiuzMxbmE6poBA==",
+    "Microsoft.AspNetCore.Components/5.0.12": {
+      "sha512": "qg36oApwTcVFGb0iXC5tRuAHV4wpnJ/sCD3/6siEKLnRAbvYylqNR6zXI7wRjTnNscQL14Szk7L6BKUhDufPAA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components/5.0.3",
+      "path": "microsoft.aspnetcore.components/5.0.12",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -210,14 +236,14 @@
         "THIRD-PARTY-NOTICES.txt",
         "lib/net5.0/Microsoft.AspNetCore.Components.dll",
         "lib/net5.0/Microsoft.AspNetCore.Components.xml",
-        "microsoft.aspnetcore.components.5.0.3.nupkg.sha512",
+        "microsoft.aspnetcore.components.5.0.12.nupkg.sha512",
         "microsoft.aspnetcore.components.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components.Analyzers/5.0.3": {
-      "sha512": "CrWTS7rc6dMd/bnoE28+6lE4JXn6dmE1oHqAnxgt/dNq2lC63BPzj7S+cJqCbr/x1agboOAKPZyU5J2zRFHtcg==",
+    "Microsoft.AspNetCore.Components.Analyzers/5.0.12": {
+      "sha512": "RqodGD7JruQdjZqPbsdXshgVqsGs0GcPtZCRP0i8neuWDvIY+3lM0FlefsA84Exn5KaPv7fGaGkYAJ9QOpy7Tg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components.analyzers/5.0.3",
+      "path": "microsoft.aspnetcore.components.analyzers/5.0.12",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -226,14 +252,14 @@
         "analyzers/dotnet/cs/Microsoft.AspNetCore.Components.Analyzers.dll",
         "build/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
         "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
-        "microsoft.aspnetcore.components.analyzers.5.0.3.nupkg.sha512",
+        "microsoft.aspnetcore.components.analyzers.5.0.12.nupkg.sha512",
         "microsoft.aspnetcore.components.analyzers.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components.Forms/5.0.3": {
-      "sha512": "XqdunZzgOQwuBeMTBvQmqZ2i3d8IcucZO0lHLrCLAUO4seYckBOLu4J5mk/YzGy7YcmyoTeKl/Edwf+hxG5IAA==",
+    "Microsoft.AspNetCore.Components.Forms/5.0.12": {
+      "sha512": "Uvtmb0W1XJLZLWCdGd/CAj2Y5v4Eo5xIcY/XirnAuyoSzTQif3LXW6K9W2ZDY2R+OHHKDZX/OB8WfQa9oTwkCw==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components.forms/5.0.3",
+      "path": "microsoft.aspnetcore.components.forms/5.0.12",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -241,14 +267,14 @@
         "THIRD-PARTY-NOTICES.txt",
         "lib/net5.0/Microsoft.AspNetCore.Components.Forms.dll",
         "lib/net5.0/Microsoft.AspNetCore.Components.Forms.xml",
-        "microsoft.aspnetcore.components.forms.5.0.3.nupkg.sha512",
+        "microsoft.aspnetcore.components.forms.5.0.12.nupkg.sha512",
         "microsoft.aspnetcore.components.forms.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components.Web/5.0.3": {
-      "sha512": "dENc9yX6QWFWfE7s5++bwvR5iPoJTNkcwyonZgEIYIZBaq8QJ6stcRk/DILzJSs/Xle4Mw7GjVrYcR97IFLkXQ==",
+    "Microsoft.AspNetCore.Components.Web/5.0.12": {
+      "sha512": "va6zhwNwtKbY1xNk+8ZjxcWqX4c3nnCmcUh0nDSJjreVUBWJ+L8ttDmTUdxo3DCi/ZfV+nqKjApCMj3ORYdU7g==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components.web/5.0.3",
+      "path": "microsoft.aspnetcore.components.web/5.0.12",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -256,14 +282,14 @@
         "THIRD-PARTY-NOTICES.txt",
         "lib/net5.0/Microsoft.AspNetCore.Components.Web.dll",
         "lib/net5.0/Microsoft.AspNetCore.Components.Web.xml",
-        "microsoft.aspnetcore.components.web.5.0.3.nupkg.sha512",
+        "microsoft.aspnetcore.components.web.5.0.12.nupkg.sha512",
         "microsoft.aspnetcore.components.web.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Metadata/5.0.3": {
-      "sha512": "fDYFg9WZd2kAvdZ8AMTqZ0LjBZp53WC9kIr5YY1p5kuFBbrYqc/aFNR5vGWE+fKroWRvW/pUgn4SgzyoO/iP5w==",
+    "Microsoft.AspNetCore.Metadata/5.0.12": {
+      "sha512": "hR8tOjDTh6wmOmHRcNtjNoNSLyudn5dDeoZgAd41a0Fbx1ho/dZJANAbPY+83Ce018wDYIG74FVvXGXM4KckCw==",
       "type": "package",
-      "path": "microsoft.aspnetcore.metadata/5.0.3",
+      "path": "microsoft.aspnetcore.metadata/5.0.12",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -275,14 +301,14 @@
         "lib/net5.0/Microsoft.AspNetCore.Metadata.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.xml",
-        "microsoft.aspnetcore.metadata.5.0.3.nupkg.sha512",
+        "microsoft.aspnetcore.metadata.5.0.12.nupkg.sha512",
         "microsoft.aspnetcore.metadata.nuspec"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection/5.0.1": {
-      "sha512": "//mDNrYeiJ0eh/awFhDFJQzkRVra/njU5Y4fyK7X29g5HScrzbUkKOKlyTtygthcGFt4zNC8G5CFCjb/oizomA==",
+    "Microsoft.Extensions.DependencyInjection/5.0.2": {
+      "sha512": "xzFW00AZEvOXM1OX+0+AYH5op/Hf3u//e6wszBd/rK72sypD+jx5CtsHxM4BVuFBEs8SajfO4QzSJtrQaHDr4A==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection/5.0.1",
+      "path": "microsoft.extensions.dependencyinjection/5.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -297,7 +323,7 @@
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
-        "microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -387,10 +413,10 @@
         "version.txt"
       ]
     },
-    "Microsoft.JSInterop/5.0.3": {
-      "sha512": "JkRQFUlxFHAC/W58HHOEJXeZSnQHSNooK3FQKHZfg1bWcR3Cx9Oo7CmV6c6lxQeP8XD6BS6OGOpwbGWMuCLajw==",
+    "Microsoft.JSInterop/5.0.12": {
+      "sha512": "3mduLhsEMVXGpMuCjBrgA2GYTFbaLQgwWNj/3XbFtYkW1941y2IQqkO3DahHXw/qHf3+iEzgBo98MDfTvaDbUQ==",
       "type": "package",
-      "path": "microsoft.jsinterop/5.0.3",
+      "path": "microsoft.jsinterop/5.0.12",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -398,7 +424,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net5.0/Microsoft.JSInterop.dll",
         "lib/net5.0/Microsoft.JSInterop.xml",
-        "microsoft.jsinterop.5.0.3.nupkg.sha512",
+        "microsoft.jsinterop.5.0.12.nupkg.sha512",
         "microsoft.jsinterop.nuspec"
       ]
     },
@@ -523,6 +549,16 @@
       "path": "../BethanysPieShopHRM.ComponentsLibrary/BethanysPieShopHRM.ComponentsLibrary.csproj",
       "msbuildProject": "../BethanysPieShopHRM.ComponentsLibrary/BethanysPieShopHRM.ComponentsLibrary.csproj"
     },
+    "BethanysPieShopHRM.GridLibrary/1.0.0": {
+      "type": "project",
+      "path": "../BethanysPieShopHRM.GridLibrary/BethanysPieShopHRM.GridLibrary.csproj",
+      "msbuildProject": "../BethanysPieShopHRM.GridLibrary/BethanysPieShopHRM.GridLibrary.csproj"
+    },
+    "BethanysPieShopHRM.OnlineCheckLibrary/1.0.0": {
+      "type": "project",
+      "path": "../BenthanysPieShopHRM.OnlineCheckLibraryV2/BethanysPieShopHRM.OnlineCheckLibrary.csproj",
+      "msbuildProject": "../BenthanysPieShopHRM.OnlineCheckLibraryV2/BethanysPieShopHRM.OnlineCheckLibrary.csproj"
+    },
     "BethanysPieShopHRM.Shared/1.0.0": {
       "type": "project",
       "path": "../BethanysPieShopHRM.Shared/BethanysPieShopHRM.Shared.csproj",
@@ -532,6 +568,8 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "BethanysPieShopHRM.ComponentsLibrary >= 1.0.0",
+      "BethanysPieShopHRM.GridLibrary >= 1.0.0",
+      "BethanysPieShopHRM.OnlineCheckLibrary >= 1.0.0",
       "BethanysPieShopHRM.Shared >= 1.0.0"
     ]
   },
@@ -562,8 +600,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\src\\Blazor-Interop\\javascript-interop-blazor-applications\\02\\demos\\before\\BenthanysPieShopHRM.OnlineCheckLibraryV2\\BethanysPieShopHRM.OnlineCheckLibrary.csproj": {
+              "projectPath": "C:\\src\\Blazor-Interop\\javascript-interop-blazor-applications\\02\\demos\\before\\BenthanysPieShopHRM.OnlineCheckLibraryV2\\BethanysPieShopHRM.OnlineCheckLibrary.csproj"
+            },
             "C:\\src\\Blazor-Interop\\javascript-interop-blazor-applications\\02\\demos\\before\\BethanysPieShopHRM.ComponentsLibrary\\BethanysPieShopHRM.ComponentsLibrary.csproj": {
               "projectPath": "C:\\src\\Blazor-Interop\\javascript-interop-blazor-applications\\02\\demos\\before\\BethanysPieShopHRM.ComponentsLibrary\\BethanysPieShopHRM.ComponentsLibrary.csproj"
+            },
+            "C:\\src\\Blazor-Interop\\javascript-interop-blazor-applications\\02\\demos\\before\\BethanysPieShopHRM.GridLibrary\\BethanysPieShopHRM.GridLibrary.csproj": {
+              "projectPath": "C:\\src\\Blazor-Interop\\javascript-interop-blazor-applications\\02\\demos\\before\\BethanysPieShopHRM.GridLibrary\\BethanysPieShopHRM.GridLibrary.csproj"
             },
             "C:\\src\\Blazor-Interop\\javascript-interop-blazor-applications\\02\\demos\\before\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj": {
               "projectPath": "C:\\src\\Blazor-Interop\\javascript-interop-blazor-applications\\02\\demos\\before\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj"

@@ -128,6 +128,20 @@ using BethanysPieShopHRM.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 18 "C:\src\Blazor-Interop\javascript-interop-blazor-applications\02\demos\before\BethanysPieShopHRM.ServerApp\_Imports.razor"
+using BethanysPieShopHRM.OnlineCheckLibrary;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 19 "C:\src\Blazor-Interop\javascript-interop-blazor-applications\02\demos\before\BethanysPieShopHRM.ServerApp\_Imports.razor"
+using BethanysPieShopHRM.GridLibrary;
+
+#line default
+#line hidden
+#nullable disable
     public partial class App : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998

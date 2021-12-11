@@ -2,10 +2,24 @@
 @implements IDisposable
 
 <div class="bg-light" id="sidebar-wrapper">
+
+    <div>
+     @if (settings.ShowOnlineIndicator){    
+            <BrowserOnlineIndicator></BrowserOnlineIndicator>
+            <br />
+      }
+      </div>
+
   <div class="sidebar-logo">
+     
+      
     <img class="img-responsive" id="logo" src="images/bethanylogo.png" />
+    
   </div>
+
+
   <div class="profile">
+     
     <div class="profile-bg">
       <img class="img-responsive" src="images/bethany.jpg" />
     </div>
@@ -13,10 +27,8 @@
       <img class="img-responsive circle account-photo" src="@settings.UserPictureUrl" />
     </div>
   </div>
-  @if (settings.ShowOnlineIndicator)
-  {
-    <BrowserOnlineIndicator></BrowserOnlineIndicator>
-  }
+
+ 
   <div class="menu list-group list-group-flush">
 
     <span class="nav-heading">Human Resources</span>

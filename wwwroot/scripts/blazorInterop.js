@@ -67,21 +67,4 @@ blazorInterop.registerResizeHandler = function (dotNetObjectRef) {
     window.addEventListener("resize", resizeHandler);
 }
 
-blazorInterop.registerOnlineHandler = function (dotNetObjectRef) {
-
-    function onlineHandler() {
-        dotNetObjectRef.invokeMethodAsync("SetOnlineStatus",
-            navigator.onLine);
-    }
-
-    //setup initial values 
-    onlineHandler();
-
-    //register event handler 
-    window.addEventListener("online", onlineHandler);
-    window.addEventListener("offline", onlineHandler);
-
-}
-
-
 

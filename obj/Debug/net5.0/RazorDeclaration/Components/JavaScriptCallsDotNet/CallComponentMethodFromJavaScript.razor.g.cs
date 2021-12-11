@@ -132,6 +132,20 @@ using BethanysPieShopHRM.Shared;
 #line hidden
 #nullable disable
 #nullable restore
+#line 18 "C:\src\Blazor-Interop\javascript-interop-blazor-applications\02\demos\before\BethanysPieShopHRM.ServerApp\_Imports.razor"
+using BethanysPieShopHRM.OnlineCheckLibrary;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 19 "C:\src\Blazor-Interop\javascript-interop-blazor-applications\02\demos\before\BethanysPieShopHRM.ServerApp\_Imports.razor"
+using BethanysPieShopHRM.GridLibrary;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 1 "C:\src\Blazor-Interop\javascript-interop-blazor-applications\02\demos\before\BethanysPieShopHRM.ServerApp\Components\JavaScriptCallsDotNet\CallComponentMethodFromJavaScript.razor"
 using System.Drawing;
 
@@ -153,11 +167,11 @@ using System.Drawing;
 
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
-        if (firstRender)
-        {
-            var dotNetObjectReference = DotNetObjectReference.Create(this);
-            await JSRunTime.InvokeVoidAsync("blazorInterop.registerResizeHandler", dotNetObjectReference); 
-        }
+        //if (firstRender)
+        //{
+        //    var dotNetObjectReference = DotNetObjectReference.Create(this);
+        //    await JSRunTime.InvokeVoidAsync("blazorInterop.registerResizeHandler", dotNetObjectReference); 
+        //}
     }
 
 

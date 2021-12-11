@@ -131,6 +131,20 @@ using BethanysPieShopHRM.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 18 "C:\src\Blazor-Interop\javascript-interop-blazor-applications\02\demos\before\BethanysPieShopHRM.ServerApp\_Imports.razor"
+using BethanysPieShopHRM.OnlineCheckLibrary;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 19 "C:\src\Blazor-Interop\javascript-interop-blazor-applications\02\demos\before\BethanysPieShopHRM.ServerApp\_Imports.razor"
+using BethanysPieShopHRM.GridLibrary;
+
+#line default
+#line hidden
+#nullable disable
     public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase, IDisposable
     {
         #pragma warning disable 1998
@@ -139,7 +153,7 @@ using BethanysPieShopHRM.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 49 "C:\src\Blazor-Interop\javascript-interop-blazor-applications\02\demos\before\BethanysPieShopHRM.ServerApp\Shared\NavMenu.razor"
+#line 61 "C:\src\Blazor-Interop\javascript-interop-blazor-applications\02\demos\before\BethanysPieShopHRM.ServerApp\Shared\NavMenu.razor"
        
 
   private UserSettings settings;

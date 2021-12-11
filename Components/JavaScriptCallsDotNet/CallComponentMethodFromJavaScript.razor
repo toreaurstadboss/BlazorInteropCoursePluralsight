@@ -13,11 +13,11 @@
 
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
-        if (firstRender)
-        {
-            var dotNetObjectReference = DotNetObjectReference.Create(this);
-            await JSRunTime.InvokeVoidAsync("blazorInterop.registerResizeHandler", dotNetObjectReference); 
-        }
+        //if (firstRender)
+        //{
+        //    var dotNetObjectReference = DotNetObjectReference.Create(this);
+        //    await JSRunTime.InvokeVoidAsync("blazorInterop.registerResizeHandler", dotNetObjectReference); 
+        //}
     }
 
 
